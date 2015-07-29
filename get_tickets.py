@@ -2,7 +2,7 @@ import requests
 import sqlite3 as lite
 import sys
 from StringIO import StringIO
-import Image
+from PIL import Image
 import io
 
 base_url = 'https://[[INSERT-COMPANY-NAME]].supportbee.com/'
